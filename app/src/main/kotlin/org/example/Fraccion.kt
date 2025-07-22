@@ -52,8 +52,21 @@ class Fraccion(
        val nuevo_denominador = this._denominador * otra._numerador
        return Fraccion(nuevo_numerador, nuevo_denominador).simplificada()
    }
-
-
+   override fun equals(other: Any?): Boolean {
+       if (this === other) return true
+       if (other !is Fraccion) return false
+       return this.numerador == other.numerador && this.denominador == other.denominador
+   }    override fun compareTo(otra: Fraccion): Int {
+       val diferencia = this.numerador * otra.denominador - otra.numerador * this.denominador
+       return diferencia.compareTo(0)
+   }    fun esMayor(otra: Fraccion): Boolean = this > otra    fun esMenor(otra: Fraccion): Boolean = this < otra    fun aDecimal(): Double = numerador.toDouble() / denominador    companion object {
+       fun desdeDecimal(decimal: Double): Fraccion {
+           val precision = 1_000_000
+           val numerador = (decimal * precision).toInt()
+           val denominador = precision
+           return Fraccion(numerador, denominador)
+       }
+   }
    fun obtenesValor(): String {
        return toString()
    }
