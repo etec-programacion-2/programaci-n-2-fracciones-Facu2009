@@ -6,12 +6,11 @@
 
 ## Información del Alumno
 
-**Nombre y Apellido:** [Escribir aquí tu nombre y apellido]
+**Nombre y Apellido:** Facundo Rodriguez
 
-**Curso:** [Escribir aquí tu curso]
+**Curso:** 4I
 
-**Fecha de entrega:** [Escribir aquí la fecha de entrega]
-
+**Fecha de entrega:** 22/07/2025
 ---
 
 ## Consigna de Trabajo Práctico: Operaciones con Fracciones
@@ -88,7 +87,7 @@ El trabajo se divide en las siguientes etapas. **Al finalizar cada etapa, deber�
    - Implementar la fórmula: (a/b) * (c/d) = (a*c)/(b*d)
    - El operador debe devolver una nueva fracción con el resultado
 2. **Operador división:**
-   - Crear el operador `operator fun div(otra: Fraccion): Fraccion`
+   - Crear el operador `operator fun times(otra: Fraccion): Fraccion`
    - Implementar la fórmula: (a/b) / (c/d) = (a*d)/(b*c)
    - El operador debe devolver una nueva fracción con el resultado
 3. **Validaciones adicionales:**
