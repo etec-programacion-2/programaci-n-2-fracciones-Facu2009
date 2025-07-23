@@ -1,5 +1,6 @@
 package org.example
 fun main() {
+   
    val f1 = Fraccion(1, 2)
    val f2 = Fraccion(1, 3)
 

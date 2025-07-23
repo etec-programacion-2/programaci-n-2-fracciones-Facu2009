@@ -88,7 +88,7 @@ El trabajo se divide en las siguientes etapas. **Al finalizar cada etapa, deber�
    - Implementar la f처rmula: (a/b) * (c/d) = (a*c)/(b*d)
    - El operador debe devolver una nueva fracci처n con el resultado
 2. **Operador divisi처n:**
-   - Crear el operador `operator fun div(otra: Fraccion): Fraccion`
+   - Crear el operador `operator fun times(otra: Fraccion): Fraccion`
    - Implementar la f처rmula: (a/b) / (c/d) = (a*d)/(b*c)
    - El operador debe devolver una nueva fracci처n con el resultado
 3. **Validaciones adicionales:**
