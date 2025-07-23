@@ -6,12 +6,11 @@
 
 ## Información del Alumno
 
-**Nombre y Apellido:** [Escribir aquí tu nombre y apellido]
+**Nombre y Apellido:** Facundo Rodriguez
 
-**Curso:** [Escribir aquí tu curso]
+**Curso:** 4I
 
-**Fecha de entrega:** [Escribir aquí la fecha de entrega]
-
+**Fecha de entrega:** 22/07/2025
 ---
 
 ## Consigna de Trabajo Práctico: Operaciones con Fracciones
